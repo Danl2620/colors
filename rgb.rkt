@@ -1,5 +1,4 @@
-#lang s-exp "colors.rkt"
-rgb
+#lang s-exp "colors.rkt" rgb
 
 (require "rgb-base.rkt")
 

@@ -1,5 +1,4 @@
-#lang s-exp "colors.rkt"
-rgb-base
+#lang s-exp "colors.rkt" rgb-base
 
 (define sand #:color beige 4)
 
