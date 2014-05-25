@@ -3,7 +3,7 @@
 ;; Provides a variant of `define' that expects a `#:color' spec,
 ;; and injects a `colors' definition into the module that maps
 ;; every defined name (in symbol form) to a color (also a symbol).
-;; The `colors' id is also automatically `provide'd.
+;; The mapping is also automatically `provide'd.
 
 (provide (except-out (all-from-out racket)
                      #%module-begin
